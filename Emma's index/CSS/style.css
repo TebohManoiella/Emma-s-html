@@ -1,0 +1,59 @@
+h1 {
+color: blue;
+background-color: yellow;
+
+font-family: sans-serif;
+}
+a {
+    color:blue
+}
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+  background-color: wheat;
+    text-align: center;
+    padding: 10px;  
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+section{
+    background-color: #f4f4f4;
+    min-height: 400px;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    background-image: image("18155.jpg");
+}
+#first{
+background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px  8px rgba(0,0,0,0.1);
+    flex: 1;
+    transition: 0.3s ease;
+}
+#second{
+    background-color: #4CAF50;
+    color: white;
+     margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px  8px rgba(0,0,0,0.1);
+    flex: 1;
+    transition: 0.3s ease;
+}
+footer{
+    background-color: wheat;
+    color: black;
+    padding: 20px;
+}
